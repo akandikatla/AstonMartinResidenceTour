@@ -1,217 +1,212 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour apprev="17253" appversion="6.0.2" start="node1">
+<tour start="node1" appversion="6.0.2" apprev="17253">
   <panorama id="node1">
-    <input height="3072" overlap="1" levelbias="0.400" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="3072" levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510">
-      <level height="3072" preload="0" width="3072" predecode="0"/>
-      <level height="1536" preload="0" width="1536" predecode="0"/>
-      <level height="768" preload="0" width="768" predecode="0"/>
-      <level height="384" preload="1" width="384" predecode="1"/>
+    <input overlap="1" levelingroll="0" levelbiashidpi="1.000" width="3072" levelingpitch="0" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbias="0.400" height="3072">
+      <level predecode="0" width="3072" preload="0" height="3072"/>
+      <level predecode="0" width="1536" preload="0" height="1536"/>
+      <level predecode="0" width="768" preload="0" height="768"/>
+      <level predecode="1" width="384" preload="1" height="384"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" projection="4" pan="0" fov="70"/>
-      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" pan="360" scaletofit="1" fovstereographic="270" fov="120"/>
+      <start fov="70" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovstereographic="270" scaletofit="1" fov="120" fovfisheye="360" pan="360" tilt="90"/>
     </view>
-    <userdata customnodeid="" latitude="" longitude="" datetime="21/04/20 1:48 PM" title="" author="" copyright="" info="" tags="210420" description="" source="" comment=""/>
-    <hotspots height="20" width="180" wordwrap="1">
-      <label height="20" backgroundcolor="0xffffff" background="1" textcolor="0x000000" borderradius="1" border="1" bordercolor="0x000000" backgroundalpha="1" width="180" textalpha="1" enabled="1" borderalpha="1" wordwrap="1"/>
-      <polystyle backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot id="Point01" skinid="ht_node" tilt="-20.87" title="" url="{node2}" pan="-43.63" description="" target="-0.5/0.5/70.0"/>
+    <userdata datetime="21/04/20 1:48 PM" comment="" author="" longitude="" copyright="" source="" latitude="" info="" title="" customnodeid="" description="" tags="210420"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label bordercolor="0x000000" borderradius="1" borderalpha="1" wordwrap="1" textalpha="1" width="180" backgroundalpha="1" background="1" backgroundcolor="0xffffff" enabled="1" textcolor="0x000000" border="1" height="20"/>
+      <polystyle bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.2509803921568627" mode="0" handcursor="1" backgroundcolor="0x0000ff"/>
+      <hotspot skinid="ht_node" title="" url="{node2}" pan="-43.63" tilt="-20.87" id="Point01" description="" target="-0.5/0.5/70.0"/>
     </hotspots>
     <media/>
-    <transition type="crossdissolve" zoomout="0" blendcolor="0x000000" zoomin="0" zoomfov="20" zoomoutpause="1" softedge="0" zoomspeed="2" enabled="1" blendtime="1"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control lockedmouse="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" contextprojections="0" lockedwheel="0" lockedkeyboard="0" contextfullscreen="1" lockedkeyboardzoom="0" invertcontrol="1" simulatemass="1" rubberband="0" invertwheel="0" hideabout="0"/>
+    <transition softedge="0" zoomin="0" blendtime="1" blendcolor="0x000000" zoomout="0" zoomspeed="2" enabled="1" type="crossdissolve" zoomoutpause="1" zoomfov="20"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control invertcontrol="1" lockedwheel="0" lockedkeyboard="0" lockedkeyboardzoom="0" simulatemass="1" dblclickfullscreen="0" lockedmouse="0" contextprojections="0" rubberband="0" speedwheel="1" contextfullscreen="1" sensitivity="8" invertwheel="0" hideabout="0"/>
   </panorama>
   <panorama id="node2">
-    <input height="3072" overlap="1" levelbias="0.400" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="3072" levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510">
-      <level height="3072" preload="0" width="3072" predecode="0"/>
-      <level height="1536" preload="0" width="1536" predecode="0"/>
-      <level height="768" preload="0" width="768" predecode="0"/>
-      <level height="384" preload="1" width="384" predecode="1"/>
+    <input overlap="1" levelingroll="0" levelbiashidpi="1.000" width="3072" levelingpitch="0" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbias="0.400" height="3072">
+      <level predecode="0" width="3072" preload="0" height="3072"/>
+      <level predecode="0" width="1536" preload="0" height="1536"/>
+      <level predecode="0" width="768" preload="0" height="768"/>
+      <level predecode="1" width="384" preload="1" height="384"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" projection="4" pan="0" fov="70"/>
-      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" pan="360" scaletofit="1" fovstereographic="270" fov="120"/>
+      <start fov="70" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovstereographic="270" scaletofit="1" fov="120" fovfisheye="360" pan="360" tilt="90"/>
     </view>
-    <userdata customnodeid="" latitude="" longitude="" datetime="21/04/20 1:53 PM" title="" author="" copyright="" info="" tags="210420" description="" source="" comment=""/>
-    <hotspots height="20" width="180" wordwrap="1">
-      <label height="20" backgroundcolor="0xffffff" background="1" textcolor="0x000000" borderradius="1" border="1" bordercolor="0x000000" backgroundalpha="1" width="180" textalpha="1" enabled="1" borderalpha="1" wordwrap="1"/>
-      <polystyle backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot id="Point01" skinid="ht_node" tilt="-21.55" title="" url="{node1}" pan="-180.14" description="" target="0.5/1.0/70.0"/>
-      <hotspot id="Point02" skinid="ht_node" tilt="-19.12" title="" url="{node3}" pan="-30.48" description="" target="-5.4/-1.1/70.0"/>
-      <hotspot id="Point03" skinid="ht_node" tilt="-10.13" title="" url="{node4}" pan="-15.39" description="" target="10.3/0.2/70.0"/>
-      <hotspot id="Point04" skinid="ht_node" tilt="-9.91" title="" url="{node5}" pan="-346.83" description="" target="-13.7/-0.3/70.0"/>
-      <hotspot id="Point05" skinid="ht_node" tilt="-19.62" title="" url="{node6}" pan="-332.43" description="" target="-1.2/-0.8/70.0"/>
+    <userdata datetime="21/04/20 1:53 PM" comment="" author="" longitude="" copyright="" source="" latitude="" info="" title="" customnodeid="" description="" tags="210420"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label bordercolor="0x000000" borderradius="1" borderalpha="1" wordwrap="1" textalpha="1" width="180" backgroundalpha="1" background="1" backgroundcolor="0xffffff" enabled="1" textcolor="0x000000" border="1" height="20"/>
+      <polystyle bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.2509803921568627" mode="0" handcursor="1" backgroundcolor="0x0000ff"/>
+      <hotspot skinid="ht_node" title="" url="{node1}" pan="-180.14" tilt="-21.55" id="Point01" description="" target="0.5/1.0/70.0"/>
+      <hotspot skinid="ht_node" title="" url="{node3}" pan="-30.48" tilt="-19.12" id="Point02" description="" target="-5.4/-1.1/70.0"/>
+      <hotspot skinid="ht_node" title="" url="{node4}" pan="-15.39" tilt="-10.13" id="Point03" description="" target="10.3/0.2/70.0"/>
+      <hotspot skinid="ht_node" title="" url="{node5}" pan="-346.83" tilt="-9.91" id="Point04" description="" target="-13.7/-0.3/70.0"/>
+      <hotspot skinid="ht_node" title="" url="{node6}" pan="-332.43" tilt="-19.62" id="Point05" description="" target="-1.2/-0.8/70.0"/>
     </hotspots>
     <media/>
-    <transition type="crossdissolve" zoomout="0" blendcolor="0x000000" zoomin="0" zoomfov="20" zoomoutpause="1" softedge="0" zoomspeed="2" enabled="1" blendtime="1"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control lockedmouse="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" contextprojections="0" lockedwheel="0" lockedkeyboard="0" contextfullscreen="1" lockedkeyboardzoom="0" invertcontrol="1" simulatemass="1" rubberband="0" invertwheel="0" hideabout="0"/>
+    <transition softedge="0" zoomin="0" blendtime="1" blendcolor="0x000000" zoomout="0" zoomspeed="2" enabled="1" type="crossdissolve" zoomoutpause="1" zoomfov="20"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control invertcontrol="1" lockedwheel="0" lockedkeyboard="0" lockedkeyboardzoom="0" simulatemass="1" dblclickfullscreen="0" lockedmouse="0" contextprojections="0" rubberband="0" speedwheel="1" contextfullscreen="1" sensitivity="8" invertwheel="0" hideabout="0"/>
   </panorama>
   <panorama id="node3">
-    <input height="3072" overlap="1" levelbias="0.400" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="3072" levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510">
-      <level height="3072" preload="0" width="3072" predecode="0"/>
-      <level height="1536" preload="0" width="1536" predecode="0"/>
-      <level height="768" preload="0" width="768" predecode="0"/>
-      <level height="384" preload="1" width="384" predecode="1"/>
+    <input overlap="1" levelingroll="0" levelbiashidpi="1.000" width="3072" levelingpitch="0" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbias="0.400" height="3072">
+      <level predecode="0" width="3072" preload="0" height="3072"/>
+      <level predecode="0" width="1536" preload="0" height="1536"/>
+      <level predecode="0" width="768" preload="0" height="768"/>
+      <level predecode="1" width="384" preload="1" height="384"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" projection="4" pan="0" fov="70"/>
-      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" pan="360" scaletofit="1" fovstereographic="270" fov="120"/>
+      <start fov="70" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovstereographic="270" scaletofit="1" fov="120" fovfisheye="360" pan="360" tilt="90"/>
     </view>
-    <userdata customnodeid="" latitude="" longitude="" datetime="21/04/16 8:10 PM" title="" author="" copyright="" info="" tags="210420" description="" source="" comment=""/>
-    <hotspots height="20" width="180" wordwrap="1">
-      <label height="20" backgroundcolor="0xffffff" background="1" textcolor="0x000000" borderradius="1" border="1" bordercolor="0x000000" backgroundalpha="1" width="180" textalpha="1" enabled="1" borderalpha="1" wordwrap="1"/>
-      <polystyle backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot id="Point01" skinid="ht_node" tilt="-16.22" title="" url="{node2}" pan="-117.37" description="" target="0.0/0.0/70.0"/>
-      <hotspot id="Point02" skinid="ht_node" tilt="-12.56" title="" url="{node6}" pan="-156.26" description="" target="0.0/0.0/70.0"/>
-      <hotspot id="Point03" skinid="ht_node" tilt="-11.36" title="" url="{node5}" pan="-191.74" description="" target="-12.9/0.6/70.0"/>
-      <hotspot id="Point04" skinid="ht_node" tilt="-17.66" title="" url="{node4}" pan="-214.99" description="" target="10.0/-0.1/70.0"/>
-      <hotspot id="Point05" skinid="ht_url" tilt="-8.11" title="Robi Walters Gallery" url="http://www.robiwalters.com/" pan="-88.97" description="" target="_blank"/>
-      <hotspot id="Point07" skinid="ht_image" tilt="-3" title="Robi Walters x Aston Martin Residence" url="images/Robi Walters x Aston Martin Residence.jpg" pan="-53.56" description="" target=""/>
-      <hotspot id="Point05" skinid="ht_url" tilt="-6.9" title="Robi Walters Gallery" url="http://www.robiwalters.com/" pan="-53.55" description="" target="_blank"/>
-      <hotspot id="Point05" skinid="ht_url" tilt="-2.22" title="Robi Walters Gallery" url="http://www.robiwalters.com/" pan="-21.81" description="" target="_blank"/>
-      <hotspot id="Point06" skinid="ht_info" tilt="-5.99" title="Can This Be Love" url="" pan="-21.82" description="Mixed Pink&amp;Blue&#xa;Collage 4ftx4ft&#xa;122cmx122cm&#xa;Plywod Recycled Card Spray paint Miri Card&#xa;Framed&#xa;July2017&#xa;&#xa;gallery@robiwlaters.com&#xa;" target=""/>
-      <hotspot id="Point08" skinid="ht_image" tilt="1.51" title="Can This Be Love" url="images/Robi_Walters_CanThisBeLove_MixedPink&amp;Blue_Collage_4ftx4ft_122cmx122cm__PlywodRecycledCardSpraypaintMiriCard_Framed_July2017_.JPG" pan="-21.75" description="" target=""/>
-      <hotspot id="Point06" skinid="ht_info" tilt="-10.63" title="Robi Walters x Aston Martin Residence" url="" pan="-53.47" description="gallery@robiwlaters.com&#xa;" target=""/>
-      <hotspot id="Point08" skinid="ht_image" tilt="1.29" title="Elevation" url="images/Robi_Walters_Elevation_WhitePinkBlue_6ftx4ft_PlywodRecycledCardSpraypaintMiriCard_2021.jpg" pan="-352.02" description="" target=""/>
-      <hotspot id="Point05" skinid="ht_url" tilt="-3.2" title="Robi Walters Gallery" url="http://www.robiwalters.com/" pan="-352.02" description="" target="_blank"/>
-      <hotspot id="Point06" skinid="ht_info" tilt="-7.2" title="Elevation" url="" pan="-352.03" description="White Pink&amp;Blue&#xa;6ftx4ft&#xa;Plywod Recycled Card Spray paint Miri Card&#xa;2021&#xa;&#xa;gallery@robiwlaters.com&#xa;" target=""/>
+    <userdata datetime="21/04/16 8:10 PM" comment="" author="" longitude="" copyright="" source="" latitude="" info="" title="" customnodeid="" description="" tags="210420"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label bordercolor="0x000000" borderradius="1" borderalpha="1" wordwrap="1" textalpha="1" width="180" backgroundalpha="1" background="1" backgroundcolor="0xffffff" enabled="1" textcolor="0x000000" border="1" height="20"/>
+      <polystyle bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.2509803921568627" mode="0" handcursor="1" backgroundcolor="0x0000ff"/>
+      <hotspot skinid="ht_node" title="" url="{node2}" pan="-104.41" tilt="-16.5" id="Point01" description="" target="0.0/0.0/70.0"/>
+      <hotspot skinid="ht_node" title="" url="{node6}" pan="-142.9" tilt="-11.79" id="Point02" description="" target="0.0/0.0/70.0"/>
+      <hotspot skinid="ht_node" title="" url="{node5}" pan="-177.51" tilt="-9.88" id="Point03" description="" target="-12.9/0.6/70.0"/>
+      <hotspot skinid="ht_node" title="" url="{node4}" pan="-202.55" tilt="-15.52" id="Point04" description="" target="10.0/-0.1/70.0"/>
+      <hotspot skinid="ht_url" title="Rafael Delceggio" url="http://&#xa;rafaeldelceggio.com" pan="-75.67" tilt="-4.86" id="Point05" description="" target="_blank"/>
+      <hotspot skinid="ht_image" title="Vision" url="images/3.Vision 36x50.jpg" pan="-41.51" tilt="-1.14" id="Point07" description="" target=""/>
+      <hotspot skinid="ht_info" title="Sublimacion" url="" pan="-0.23" tilt="-2.42" id="Point06" description="36&quot; x 50&quot;&#xa;Hahnemuhle fine art Baryta Paper &#xa;Black Framed with exhibition glass &#xa;1/5 &#xa;2022 " target=""/>
+      <hotspot skinid="ht_image" title="Sublimacion" url="images/4.Sublimacion 36x50.jpg" pan="-360.23" tilt="-0.08" id="Point08" description="" target=""/>
+      <hotspot skinid="ht_info" title="Vision" url="" pan="-41.5" tilt="-3.48" id="Point06" description="36&quot; x 50&quot;&#xa;Hahnemuhle fine art Baryta Paper &#xa;Black Framed with exhibition glass &#xa;1/5 &#xa;2022 &#xa;" target=""/>
+      <hotspot skinid="ht_image" title="Bucolic" url="images/1.Bucolic 36x50.jpg" pan="-315.76" tilt="-1.11" id="Point08" description="" target=""/>
+      <hotspot skinid="ht_info" title="Bucolic" url="" pan="-315.75" tilt="-3.64" id="Point06" description="36&quot; x 50&quot; &#xa;Hahnemuhle fine art Baryta Paper &#xa;Black Framed with excibition glass &#xa;1/5 &#xa;2022 " target=""/>
+      <hotspot skinid="ht_url" title="Vision" url="http://rafaeldelceggio.com/" pan="-41.52" tilt="-5.86" id="Point09" description="" target="_blank"/>
+      <hotspot skinid="ht_url" title="Sublimacion" url="http://rafaeldelceggio.com/" pan="-0.27" tilt="-5.07" id="Point09" description="" target="_blank"/>
+      <hotspot skinid="ht_url" title="Bucolic" url="http://rafaeldelceggio.com/" pan="-315.73" tilt="-6.45" id="Point09" description="" target="_blank"/>
     </hotspots>
     <media/>
-    <transition type="crossdissolve" zoomout="0" blendcolor="0x000000" zoomin="0" zoomfov="20" zoomoutpause="1" softedge="0" zoomspeed="2" enabled="1" blendtime="1"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control lockedmouse="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" contextprojections="0" lockedwheel="0" lockedkeyboard="0" contextfullscreen="1" lockedkeyboardzoom="0" invertcontrol="1" simulatemass="1" rubberband="0" invertwheel="0" hideabout="0"/>
+    <transition softedge="0" zoomin="0" blendtime="1" blendcolor="0x000000" zoomout="0" zoomspeed="2" enabled="1" type="crossdissolve" zoomoutpause="1" zoomfov="20"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control invertcontrol="1" lockedwheel="0" lockedkeyboard="0" lockedkeyboardzoom="0" simulatemass="1" dblclickfullscreen="0" lockedmouse="0" contextprojections="0" rubberband="0" speedwheel="1" contextfullscreen="1" sensitivity="8" invertwheel="0" hideabout="0"/>
   </panorama>
   <panorama id="node4">
-    <input height="3072" overlap="1" levelbias="0.400" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="3072" levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510">
-      <level height="3072" preload="0" width="3072" predecode="0"/>
-      <level height="1536" preload="0" width="1536" predecode="0"/>
-      <level height="768" preload="0" width="768" predecode="0"/>
-      <level height="384" preload="1" width="384" predecode="1"/>
+    <input overlap="1" levelingroll="0" levelbiashidpi="1.000" width="3072" levelingpitch="0" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbias="0.400" height="3072">
+      <level predecode="0" width="3072" preload="0" height="3072"/>
+      <level predecode="0" width="1536" preload="0" height="1536"/>
+      <level predecode="0" width="768" preload="0" height="768"/>
+      <level predecode="1" width="384" preload="1" height="384"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" projection="4" pan="0" fov="70"/>
-      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" pan="360" scaletofit="1" fovstereographic="270" fov="120"/>
+      <start fov="70" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovstereographic="270" scaletofit="1" fov="120" fovfisheye="360" pan="360" tilt="90"/>
     </view>
-    <userdata customnodeid="" latitude="" longitude="" datetime="21/04/16 8:14 PM" title="" author="" copyright="" info="" tags="210420" description="" source="" comment=""/>
-    <hotspots height="20" width="180" wordwrap="1">
-      <label height="20" backgroundcolor="0xffffff" background="1" textcolor="0x000000" borderradius="1" border="1" bordercolor="0x000000" backgroundalpha="1" width="180" textalpha="1" enabled="1" borderalpha="1" wordwrap="1"/>
-      <polystyle backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot id="Point01" skinid="ht_node" tilt="-15.71" title="" url="{node3}" pan="-148.95" description="" target="-5.6/-0.5/70.0"/>
-      <hotspot id="Point02" skinid="ht_node" tilt="-10.61" title="" url="{node2}" pan="-145.83" description="" target="0.0/0.0/70.0"/>
-      <hotspot id="Point03" skinid="ht_node" tilt="-10.78" title="" url="{node6}" pan="-172.97" description="" target="0.0/0.0/70.0"/>
-      <hotspot id="Point04" skinid="ht_node" tilt="-12.3" title="" url="{node5}" pan="-207.02" description="" target="-13.7/0.8/70.0"/>
-      <hotspot id="Point05" skinid="ht_url" tilt="-0.05" title="Robi Walters Gallery" url="http://www.robiwalters.com/" pan="-37.55" description="" target="_blank"/>
-      <hotspot id="Point06" skinid="ht_info" tilt="-3.77" title="Cherish The Day" url="" pan="-37.55" description="Yellow&#xa;2ftx2ft&#xa;Plywod Recycled Card Spray paint Miri Card&#xa;Collage&#xa;Jan 2017&#xa;&#xa;gallery@robiwlaters.com&#xa;" target=""/>
-      <hotspot id="Point08" skinid="ht_image" tilt="3.65" title="Cherish The Day" url="images/Robi_Walters_CherishTheDay_Yellow_2ftx2ft_PlywodRecycledCardSpraypaintMiriCard_Collage_Jan_2017.jpg" pan="-37.49" description="" target=""/>
-      <hotspot id="Point06" skinid="ht_info" tilt="-7.54" title="Ace Iz Wild" url="" pan="-5.97" description="Orange Red Blue Yellow&#xa;4ftx4ft&#xa;Plywod Recycled Card Spray paint Miri Card&#xa;April 2018&#xa;&#xa;gallery@robiwlaters.com&#xa;" target=""/>
-      <hotspot id="Point05" skinid="ht_url" tilt="-3.86" title="Robi Walters Gallery" url="http://www.robiwalters.com/" pan="-5.95" description="" target="_blank"/>
-      <hotspot id="Point08" skinid="ht_image" tilt="-0.22" title="Ace Iz Wild" url="images/Robi_Walters_AceIzWild_OrangeRedBlueYellow_4ftx4ft_PlywodRecycledCardSpraypaintMiriCard_April2018.JPG" pan="-5.99" description="" target=""/>
-      <hotspot id="Point08" skinid="ht_image" tilt="-0.76" title="The Choice" url="images/Robi_Walters_TheChoice_WhiteintoRed__4ftx4ft_PlywodRecycledCardSpraypaintMiriCard__Jan_2017_.jpg" pan="-325.56" description="" target=""/>
-      <hotspot id="Point05" skinid="ht_url" tilt="-4.04" title="Robi Walters Gallery" url="http://www.robiwalters.com/" pan="-325.56" description="" target="_blank"/>
-      <hotspot id="Point06" skinid="ht_info" tilt="-7.23" title="The Choice" url="" pan="-325.54" description="White into Red&#xa;4ftx4ft&#xa;Plywod Recycled Card Spray paint Miri Card&#xa;Jan 2017&#xa;&#xa;gallery@robiwlaters.com&#xa;" target=""/>
-      <hotspot id="Point08" skinid="ht_image" tilt="2.95" title="Different Now" url="images/Robi_Walters_DifferentNow_YellowPinkPurple_Collage_61cmx61cm_2ftx2ft_PlywodRecycledCardSpraypaintMiriCard_2017_Sep.jpg" pan="-284.75" description="" target=""/>
-      <hotspot id="Point05" skinid="ht_url" tilt="-0.19" title="Robi Walters Gallery" url="http://www.robiwalters.com/" pan="-284.7" description="" target="_blank"/>
-      <hotspot id="Point06" skinid="ht_info" tilt="-3.14" title="Different Now" url="" pan="-284.64" description="Yellow Pink Purple&#xa;Collage&#xa;61cm x 61cm 2ft x 2ft&#xa;Plywod Recycled Card Spray paint Miri Card&#xa;Sep 2017&#xa;&#xa;gallery@robiwlaters.com&#xa;" target=""/>
+    <userdata datetime="21/04/16 8:14 PM" comment="" author="" longitude="" copyright="" source="" latitude="" info="" title="" customnodeid="" description="" tags="210420"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label bordercolor="0x000000" borderradius="1" borderalpha="1" wordwrap="1" textalpha="1" width="180" backgroundalpha="1" background="1" backgroundcolor="0xffffff" enabled="1" textcolor="0x000000" border="1" height="20"/>
+      <polystyle bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.2509803921568627" mode="0" handcursor="1" backgroundcolor="0x0000ff"/>
+      <hotspot skinid="ht_node" title="" url="{node3}" pan="-158.55" tilt="-15.96" id="Point01" description="" target="-5.6/-0.5/70.0"/>
+      <hotspot skinid="ht_node" title="" url="{node2}" pan="-152.9" tilt="-11.03" id="Point02" description="" target="0.0/0.0/70.0"/>
+      <hotspot skinid="ht_node" title="" url="{node6}" pan="-179.96" tilt="-9.9" id="Point03" description="" target="0.0/0.0/70.0"/>
+      <hotspot skinid="ht_node" title="" url="{node5}" pan="-213.21" tilt="-11.72" id="Point04" description="" target="-13.7/0.8/70.0"/>
+      <hotspot skinid="ht_image" title="Premonitory" url="images/2.Premonitory 36x50.jpg" pan="-24.04" tilt="0.26" id="Point07" description="" target=""/>
+      <hotspot skinid="ht_info" title="Premonitory" url="" pan="-24.08" tilt="-2.76" id="Point08" description="36&quot; x 50&quot;&#xa;Hahnemuhle fine art Baryta Paper &#xa;Black Framed with excibition glass &#xa;1/5 &#xa;2022 " target=""/>
+      <hotspot skinid="ht_image" title="Vulcan Portrait (7)" url="images/7.Vulcan Portrait 25x36.jpg" pan="-317.95" tilt="2.01" id="Point09" description="" target=""/>
+      <hotspot skinid="ht_info" title="Vulcan Portrait (7)" url="" pan="-318" tilt="-1.05" id="Point10" description="25&quot; x 36&quot;&#xa;Color fine art paper &#xa;White framed with exhibition glass &#xa;1/20 &#xa;2022 " target=""/>
+      <hotspot skinid="ht_url" title="Bucolic" url="http://rafaeldelceggio.com/" pan="-69.07" tilt="-4.9" id="Point09" description="" target="_blank"/>
+      <hotspot skinid="ht_info" title="Bucolic" url="" pan="-69.08" tilt="-2.22" id="Point06" description="36&quot; x 50&quot; &#xa;Hahnemuhle fine art Baryta Paper &#xa;Black Framed with excibition glass &#xa;1/5 &#xa;2022 " target=""/>
+      <hotspot skinid="ht_image" title="Bucolic" url="images/1.Bucolic 36x50.jpg" pan="-69.12" tilt="0.56" id="Point08" description="" target=""/>
+      <hotspot skinid="ht_url" title="Premonitory" url="http://rafaeldelceggio.com/" pan="-24.04" tilt="-5.86" id="Point09" description="" target="_blank"/>
+      <hotspot skinid="ht_url" title="Vulcan Portrait (7)" url="http://rafaeldelceggio.com/" pan="-318" tilt="-4.12" id="Point09" description="" target="_blank"/>
     </hotspots>
     <media/>
-    <transition type="crossdissolve" zoomout="0" blendcolor="0x000000" zoomin="0" zoomfov="20" zoomoutpause="1" softedge="0" zoomspeed="2" enabled="1" blendtime="1"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control lockedmouse="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" contextprojections="0" lockedwheel="0" lockedkeyboard="0" contextfullscreen="1" lockedkeyboardzoom="0" invertcontrol="1" simulatemass="1" rubberband="0" invertwheel="0" hideabout="0"/>
+    <transition softedge="0" zoomin="0" blendtime="1" blendcolor="0x000000" zoomout="0" zoomspeed="2" enabled="1" type="crossdissolve" zoomoutpause="1" zoomfov="20"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control invertcontrol="1" lockedwheel="0" lockedkeyboard="0" lockedkeyboardzoom="0" simulatemass="1" dblclickfullscreen="0" lockedmouse="0" contextprojections="0" rubberband="0" speedwheel="1" contextfullscreen="1" sensitivity="8" invertwheel="0" hideabout="0"/>
   </panorama>
   <panorama id="node5">
-    <input height="3072" overlap="1" levelbias="0.400" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="3072" levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510">
-      <level height="3072" preload="0" width="3072" predecode="0"/>
-      <level height="1536" preload="0" width="1536" predecode="0"/>
-      <level height="768" preload="0" width="768" predecode="0"/>
-      <level height="384" preload="1" width="384" predecode="1"/>
+    <input overlap="1" levelingroll="0" levelbiashidpi="1.000" width="3072" levelingpitch="0" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbias="0.400" height="3072">
+      <level predecode="0" width="3072" preload="0" height="3072"/>
+      <level predecode="0" width="1536" preload="0" height="1536"/>
+      <level predecode="0" width="768" preload="0" height="768"/>
+      <level predecode="1" width="384" preload="1" height="384"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" projection="4" pan="0" fov="70"/>
-      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" pan="360" scaletofit="1" fovstereographic="270" fov="120"/>
+      <start fov="70" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovstereographic="270" scaletofit="1" fov="120" fovfisheye="360" pan="360" tilt="90"/>
     </view>
-    <userdata customnodeid="" latitude="" longitude="" datetime="21/04/20 1:57 PM" title="" author="" copyright="" info="" tags="210420" description="" source="" comment=""/>
-    <hotspots height="20" width="180" wordwrap="1">
-      <label height="20" backgroundcolor="0xffffff" background="1" textcolor="0x000000" borderradius="1" border="1" bordercolor="0x000000" backgroundalpha="1" width="180" textalpha="1" enabled="1" borderalpha="1" wordwrap="1"/>
-      <polystyle backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot id="Point01" skinid="ht_node" tilt="-23.55" title="" url="{node4}" pan="-153.1" description="" target="10.1/0.2/70.0"/>
-      <hotspot id="Point02" skinid="ht_node" tilt="-15.51" title="" url="{node3}" pan="-208.98" description="" target="-5.7/-0.1/70.0"/>
-      <hotspot id="Point03" skinid="ht_node" tilt="-17.77" title="" url="{node6}" pan="-255.36" description="" target="0.0/0.0/70.0"/>
-      <hotspot id="Point04" skinid="ht_node" tilt="-12.99" title="" url="{node2}" pan="-237.6" description="" target="0.0/0.0/70.0"/>
-      <hotspot id="Point05" skinid="ht_node" tilt="-5.85" title="" url="{node1}" pan="-240.54" description="" target="0.0/0.0/70.0"/>
-      <hotspot id="Point08" skinid="ht_image" tilt="2.77" title="Pure Mind" url="images/Robi_Walters_Pure_Mind_MixedGreens_7ftx7ft_PlywodRecycledCardSpraypaintMiriCard_2019_.jpg" pan="-48.45" description="" target=""/>
-      <hotspot id="Point05" skinid="ht_url" tilt="-1.97" title="Robi Walters Gallery" url="http://www.robiwalters.com/" pan="-48.3" description="" target="_blank"/>
-      <hotspot id="Point06" skinid="ht_info" tilt="-6.69" title="Pure Mind" url="" pan="-48.25" description="Mixed Greens&#xa;7ft x 7ft&#xa;Plywod Recycled Card Spray paint Miri Card&#xa;2019&#xa;&#xa;gallery@robiwlaters.com&#xa;" target=""/>
-      <hotspot id="Point08" skinid="ht_image" tilt="0.01" title="Spirits Up Above" url="images/RobiWalters_SpiritsUpAbove_MixedGoldandCoralOrange_RecycledCardMiriCardSprayPaintGlueOnplywood_2021_5ftx5ft.jpg" pan="-0.35" description="" target=""/>
-      <hotspot id="Point05" skinid="ht_url" tilt="-3.36" title="Robi Walters Gallery" url="http://www.robiwalters.com/" pan="-0.36" description="" target="_blank"/>
-      <hotspot id="Point06" skinid="ht_info" tilt="-6.9" title="Spirits Up Above" url="" pan="-0.33" description="Mixed Gold and Coral Orange&#xa;5ftx5ft&#xa;Recycled Card Miri Card Spray Paint Glue On plywood&#xa;2021&#xa;&#xa;gallery@robiwlaters.com&#xa;" target=""/>
-      <hotspot id="Point08" skinid="ht_image" tilt="1.61" title="Have A Nice Day" url="images/Robi_Walters_HaveANiceDay_WhiteGreenFade__4ftx4ft_PlywodRecycledCardSpraypaintMiriCard_2018_Collage.jpg" pan="-323.02" description="" target=""/>
-      <hotspot id="Point05" skinid="ht_url" tilt="-2.15" title="Robi Walters Gallery" url="http://www.robiwalters.com/" pan="-323.05" description="" target="_blank"/>
-      <hotspot id="Point06" skinid="ht_info" tilt="-6.1" title="Have A Nice Day" url="" pan="-323.04" description="WhiteGreenFade&#xa;4ftx4ft&#xa;Collage Plywod Recycled Card Spray paint Miri Card&#xa;2018&#xa;&#xa;gallery@robiwlaters.com&#xa;" target=""/>
+    <userdata datetime="21/04/20 1:57 PM" comment="" author="" longitude="" copyright="" source="" latitude="" info="" title="" customnodeid="" description="" tags="210420"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label bordercolor="0x000000" borderradius="1" borderalpha="1" wordwrap="1" textalpha="1" width="180" backgroundalpha="1" background="1" backgroundcolor="0xffffff" enabled="1" textcolor="0x000000" border="1" height="20"/>
+      <polystyle bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.2509803921568627" mode="0" handcursor="1" backgroundcolor="0x0000ff"/>
+      <hotspot skinid="ht_node" title="" url="{node4}" pan="-152.78" tilt="-23.28" id="Point01" description="" target="10.1/0.2/70.0"/>
+      <hotspot skinid="ht_node" title="" url="{node3}" pan="-208.77" tilt="-14.54" id="Point02" description="" target="-5.7/-0.1/70.0"/>
+      <hotspot skinid="ht_node" title="" url="{node6}" pan="-255.34" tilt="-17.42" id="Point03" description="" target="0.0/0.0/70.0"/>
+      <hotspot skinid="ht_node" title="" url="{node2}" pan="-237.6" tilt="-12.99" id="Point04" description="" target="0.0/0.0/70.0"/>
+      <hotspot skinid="ht_node" title="" url="{node1}" pan="-240.54" tilt="-5.85" id="Point05" description="" target="0.0/0.0/70.0"/>
+      <hotspot skinid="ht_url" title="Vulcan Portrait (10)" url="http://rafaeldelceggio.com/" pan="-35.73" tilt="-3.84" id="Point09" description="" target="_blank"/>
+      <hotspot skinid="ht_info" title="Vulcan Portrait (10)" url="" pan="-35.7" tilt="-1.21" id="Point10" description="25&quot; x 36&quot;&#xa;Color fine art paper &#xa;White framed with exhibition glass &#xa;1/20 &#xa;2022 " target=""/>
+      <hotspot skinid="ht_image" title="Vulcan Portrait (10)" url="images/10.Vulcan Portrait 25x36.jpg" pan="-35.64" tilt="1.32" id="Point09" description="" target=""/>
+      <hotspot skinid="ht_image" title="Vulcan Portrait (9)" url="images/9.Vulcan Portrait 25x36.jpg" pan="-356.39" tilt="1.79" id="Point09" description="" target=""/>
+      <hotspot skinid="ht_url" title="Vulcan Portrait (9)" url="http://rafaeldelceggio.com/" pan="-356.45" tilt="-2.84" id="Point09" description="" target="_blank"/>
+      <hotspot skinid="ht_info" title="Vulcan Portrait (9)" url="" pan="-356.45" tilt="-0.62" id="Point10" description="25&quot; x 36&quot;&#xa;Color fine art paper &#xa;White framed with exhibition glass &#xa;1/20 &#xa;2022 " target=""/>
+      <hotspot skinid="ht_url" title="Vulcan Portrait (5)" url="http://rafaeldelceggio.com/" pan="-319.39" tilt="-2.73" id="Point09" description="" target="_blank"/>
+      <hotspot skinid="ht_info" title="Vulcan Portrait (5)" url="" pan="-319.46" tilt="-0.53" id="Point10" description="25&quot; x 36&quot;&#xa;Color fine art paper &#xa;White framed with exhibition glass &#xa;1/20 &#xa;2022 " target=""/>
+      <hotspot skinid="ht_image" title="Vulcan Portrait (5)" url="images/5.Vulcan Portrait 25x36.jpg" pan="-319.5" tilt="1.79" id="Point09" description="" target=""/>
     </hotspots>
     <media/>
-    <transition type="crossdissolve" zoomout="0" blendcolor="0x000000" zoomin="0" zoomfov="20" zoomoutpause="1" softedge="0" zoomspeed="2" enabled="1" blendtime="1"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control lockedmouse="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" contextprojections="0" lockedwheel="0" lockedkeyboard="0" contextfullscreen="1" lockedkeyboardzoom="0" invertcontrol="1" simulatemass="1" rubberband="0" invertwheel="0" hideabout="0"/>
+    <transition softedge="0" zoomin="0" blendtime="1" blendcolor="0x000000" zoomout="0" zoomspeed="2" enabled="1" type="crossdissolve" zoomoutpause="1" zoomfov="20"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control invertcontrol="1" lockedwheel="0" lockedkeyboard="0" lockedkeyboardzoom="0" simulatemass="1" dblclickfullscreen="0" lockedmouse="0" contextprojections="0" rubberband="0" speedwheel="1" contextfullscreen="1" sensitivity="8" invertwheel="0" hideabout="0"/>
   </panorama>
   <panorama id="node6">
-    <input height="3072" overlap="1" levelbias="0.400" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="3072" levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510">
-      <level height="3072" preload="0" width="3072" predecode="0"/>
-      <level height="1536" preload="0" width="1536" predecode="0"/>
-      <level height="768" preload="0" width="768" predecode="0"/>
-      <level height="384" preload="1" width="384" predecode="1"/>
+    <input overlap="1" levelingroll="0" levelbiashidpi="1.000" width="3072" levelingpitch="0" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbias="0.400" height="3072">
+      <level predecode="0" width="3072" preload="0" height="3072"/>
+      <level predecode="0" width="1536" preload="0" height="1536"/>
+      <level predecode="0" width="768" preload="0" height="768"/>
+      <level predecode="1" width="384" preload="1" height="384"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start tilt="0" projection="4" pan="0" fov="70"/>
-      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovfisheye="360" pan="360" scaletofit="1" fovstereographic="270" fov="120"/>
+      <start fov="70" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovstereographic="270" scaletofit="1" fov="120" fovfisheye="360" pan="360" tilt="90"/>
     </view>
-    <userdata customnodeid="" latitude="" longitude="" datetime="21/04/20 2:02 PM" title="" author="" copyright="" info="" tags="210420" description="" source="" comment=""/>
-    <hotspots height="20" width="180" wordwrap="1">
-      <label height="20" backgroundcolor="0xffffff" background="1" textcolor="0x000000" borderradius="1" border="1" bordercolor="0x000000" backgroundalpha="1" width="180" textalpha="1" enabled="1" borderalpha="1" wordwrap="1"/>
-      <polystyle backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot id="Point02" skinid="ht_node" tilt="-19.96" title="" url="{node2}" pan="-285.47" description="" target="0.0/0.0/70.0"/>
-      <hotspot id="Point03" skinid="ht_node" tilt="-24.5" title="" url="{node3}" pan="-222.34" description="" target="-5.7/-0.5/70.0"/>
-      <hotspot id="Point04" skinid="ht_node" tilt="-17.22" title="" url="{node4}" pan="-155.85" description="" target="10.1/-0.0/70.0"/>
-      <hotspot id="Point05" skinid="ht_node" tilt="-21.33" title="" url="{node5}" pan="-101.16" description="" target="-13.1/0.4/70.0"/>
-      <hotspot id="Point01" skinid="ht_node" tilt="-7.23" title="" url="{node1}" pan="-288.64" description="" target="0.0/0.0/70.0"/>
-      <hotspot id="Point08" skinid="ht_image" tilt="2.46" title="Have A Nice Day" url="images/Robi_Walters_HaveANiceDay_WhiteGreenFade__4ftx4ft_PlywodRecycledCardSpraypaintMiriCard_2018_Collage.jpg" pan="-48.09" description="" target=""/>
-      <hotspot id="Point05" skinid="ht_url" tilt="-1.33" title="Robi Walters Gallery" url="http://www.robiwalters.com/" pan="-48.09" description="" target="_blank"/>
-      <hotspot id="Point06" skinid="ht_info" tilt="-5.27" title="Have A Nice Day" url="" pan="-48.08" description="WhiteGreenFade&#xa;4ftx4ft&#xa;Collage Plywod Recycled Card Spray paint Miri Card&#xa;2018&#xa;&#xa;gallery@robiwlaters.com&#xa;" target=""/>
-      <hotspot id="Point08" skinid="ht_image" tilt="0.11" title="Keep The Fire Burning" url="images/RobiWalters_Keepthefireburning_MixedReds_5ftx5ft_PlywodRecycledCardSpraypaintMiriCard_2021_.jpg" pan="-16.16" description="" target=""/>
-      <hotspot id="Point05" skinid="ht_url" tilt="-3.91" title="Robi Walters Gallery" url="http://www.robiwalters.com/" pan="-16.3" description="" target="_blank"/>
-      <hotspot id="Point06" skinid="ht_info" tilt="-7.93" title="Keep The Fire Burning" url="" pan="-16.41" description="Mixed Reds&#xa;5ftx5ft&#xa;Plywod Recycled Card Spray paint Miri Card&#xa;2021&#xa;&#xa;gallery@robiwlaters.com&#xa;" target=""/>
-      <hotspot id="Point08" skinid="ht_image" tilt="2.14" title="A Case Of You" url="images/Robi_Walters_ACaseOfYou_PurpleGreen_2ftx2ft_61cmx61cm_PlywodRecycledCardSpraypaintMiriCard_2019.JPG" pan="-340.02" description="" target=""/>
-      <hotspot id="Point05" skinid="ht_url" tilt="-0.01" title="Robi Walters Gallery" url="http://www.robiwalters.com/" pan="-340.02" description="" target="_blank"/>
-      <hotspot id="Point06" skinid="ht_info" tilt="-2.26" title="A Case Of You" url="" pan="-340.04" description="Purple Green&#xa;2ftx2ft 61cm x 61cm&#xa;Plywod Recycled Card Spray paint Miri Card&#xa;2019&#xa;&#xa;gallery@robiwlaters.com&#xa;" target=""/>
-      <hotspot id="Point08" skinid="ht_image" tilt="0.3" title="Juks We A Juk" url="images/Robi_Walters_JuksWeAJuk_OrangeMixed_4ftx4ft_PlywodRecycledCardSpraypaintMiriCard_Jan_2017_.jpg" pan="-328.63" description="" target=""/>
-      <hotspot id="Point05" skinid="ht_url" tilt="-2.81" title="Robi Walters Gallery" url="http://www.robiwalters.com/" pan="-328.62" description="" target="_blank"/>
-      <hotspot id="Point06" skinid="ht_info" tilt="-5.71" title="Juks We A Juk" url="" pan="-328.68" description="Orange Mixed&#xa;4ftx4ft&#xa;Plywod Recycled Card Spray paint Miri Card&#xa;Jan 2017&#xa;&#xa;gallery@robiwlaters.com&#xa;" target=""/>
+    <userdata datetime="21/04/20 2:02 PM" comment="" author="" longitude="" copyright="" source="" latitude="" info="" title="" customnodeid="" description="" tags="210420"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label bordercolor="0x000000" borderradius="1" borderalpha="1" wordwrap="1" textalpha="1" width="180" backgroundalpha="1" background="1" backgroundcolor="0xffffff" enabled="1" textcolor="0x000000" border="1" height="20"/>
+      <polystyle bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.2509803921568627" mode="0" handcursor="1" backgroundcolor="0x0000ff"/>
+      <hotspot skinid="ht_node" title="" url="{node2}" pan="-285.47" tilt="-19.96" id="Point02" description="" target="0.0/0.0/70.0"/>
+      <hotspot skinid="ht_node" title="" url="{node3}" pan="-226.42" tilt="-23.86" id="Point03" description="" target="-5.7/-0.5/70.0"/>
+      <hotspot skinid="ht_node" title="" url="{node4}" pan="-160.96" tilt="-16.64" id="Point04" description="" target="10.1/-0.0/70.0"/>
+      <hotspot skinid="ht_node" title="" url="{node5}" pan="-104.95" tilt="-20.82" id="Point05" description="" target="-13.1/0.4/70.0"/>
+      <hotspot skinid="ht_node" title="" url="{node1}" pan="-294.66" tilt="-7.51" id="Point01" description="" target="0.0/0.0/70.0"/>
+      <hotspot skinid="ht_url" title="Vulcan Portrait (5)" url="http://rafaeldelceggio.com/" pan="-50.5" tilt="-3.08" id="Point09" description="" target="_blank"/>
+      <hotspot skinid="ht_info" title="Vulcan Portrait (5)" url="" pan="-50.49" tilt="-1" id="Point10" description="25&quot; x 36&quot;&#xa;Color fine art paper &#xa;White framed with exhibition glass &#xa;1/20 &#xa;2022 " target=""/>
+      <hotspot skinid="ht_image" title="Vulcan Portrait (5)" url="images/5.Vulcan Portrait 25x36.jpg" pan="-50.51" tilt="1.06" id="Point09" description="" target=""/>
+      <hotspot skinid="ht_url" title="Vulcan Portrait (8)" url="http://rafaeldelceggio.com/" pan="-14.32" tilt="-3.1" id="Point09" description="" target="_blank"/>
+      <hotspot skinid="ht_info" title="Vulcan Portrait (8)" url="" pan="-14.32" tilt="-1.11" id="Point10" description="25&quot; x 36&quot;&#xa;Color fine art paper &#xa;White framed with exhibition glass &#xa;1/20 &#xa;2022 " target=""/>
+      <hotspot skinid="ht_image" title="Vulcan Portrait (8)" url="images/8.Vulcan Portrait 25x36.jpg" pan="-14.35" tilt="1" id="Point09" description="" target=""/>
+      <hotspot skinid="ht_url" title="Vulcan Portrait (6)" url="http://rafaeldelceggio.com/" pan="-337.66" tilt="-2.48" id="Point09" description="" target="_blank"/>
+      <hotspot skinid="ht_info" title="Vulcan Portrait (6)" url="" pan="-337.68" tilt="-0.44" id="Point10" description="25&quot; x 36&quot;&#xa;Color fine art paper &#xa;White framed with exhibition glass &#xa;1/20 &#xa;2022 " target=""/>
+      <hotspot skinid="ht_image" title="Vulcan Portrait (6)" url="images/6.Vulcan Portrait 25x36.jpg" pan="-337.69" tilt="1.53" id="Point09" description="" target=""/>
+      <hotspot skinid="ht_url" title="Rafael Delceggio" url="http://&#xa;rafaeldelceggio.com" pan="-259.23" tilt="-3.49" id="Point05" description="" target="_blank"/>
     </hotspots>
     <media/>
-    <transition type="crossdissolve" zoomout="0" blendcolor="0x000000" zoomin="0" zoomfov="20" zoomoutpause="1" softedge="0" zoomspeed="2" enabled="1" blendtime="1"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control lockedmouse="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" contextprojections="0" lockedwheel="0" lockedkeyboard="0" contextfullscreen="1" lockedkeyboardzoom="0" invertcontrol="1" simulatemass="1" rubberband="0" invertwheel="0" hideabout="0"/>
+    <transition softedge="0" zoomin="0" blendtime="1" blendcolor="0x000000" zoomout="0" zoomspeed="2" enabled="1" type="crossdissolve" zoomoutpause="1" zoomfov="20"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control invertcontrol="1" lockedwheel="0" lockedkeyboard="0" lockedkeyboardzoom="0" simulatemass="1" dblclickfullscreen="0" lockedmouse="0" contextprojections="0" rubberband="0" speedwheel="1" contextfullscreen="1" sensitivity="8" invertwheel="0" hideabout="0"/>
   </panorama>
   <masternode>
-    <userdata customnodeid="" latitude="" longitude="" datetime="" title="" author="" copyright="" info="" tags="" description="" source="" comment=""/>
+    <userdata datetime="" comment="" author="" longitude="" copyright="" source="" latitude="" info="" title="" customnodeid="" description="" tags=""/>
   </masternode>
 </tour>
